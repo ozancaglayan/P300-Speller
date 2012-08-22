@@ -1,0 +1,163 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.biopac.com/ChannelPresets"
+	xmlns="http://www.biopac.com/ChannelPresets" elementFormDefault="qualified" attributeFormDefault="unqualified"
+	version="1.0">
+	<!-- ADD ANNOTATIONS IN ALL TYPES LATER -->
+	<xsd:annotation>
+		<xsd:documentation xml:lang="en">
+			Channel Presets Schema
+			Copyright 2008 BIOPAC Systems, Inc.
+		</xsd:documentation>
+	</xsd:annotation>
+	<!-- GROUPS FOR THE XML FORMAT -->
+	<xsd:group name="DefinedPresetCollectionTypes">
+		<xsd:sequence>
+			<xsd:element name="analogpresetcollection" type="AnalogPresetCollectionType" />
+			<xsd:element name="calcpresetcollection" type="CalcPresetCollectionType" />
+		</xsd:sequence>
+	</xsd:group>
+	<!--CLASS TYPES FOR CHANNEL PRESETS XML FORMAT -->
+	<!-- Channel Preset Collection Type -->
+	<xsd:complexType name="ChannelPresetCollectionType">
+		<xsd:sequence>
+			<xsd:group ref="DefinedPresetCollectionTypes" />
+			<xsd:any minOccurs="0" maxOccurs="unbounded" />
+		</xsd:sequence>
+		<xsd:attribute name="version" type="MajorMinorVersionType" use="required" />
+		<xsd:attribute name="creator" type="xsd:string" use="optional" />
+		<xsd:anyAttribute />
+	</xsd:complexType>
+	<!-- End Channel Preset Collection Type -->
+	<!-- Analog Channel Preset Collection Type -->
+	<xsd:complexType name="AnalogPresetCollectionType">
+		<xsd:sequence>
+			<xsd:element name="analogpreset" type="AnalogPresetType" minOccurs="0" maxOccurs="unbounded" />
+		</xsd:sequence>
+		<xsd:anyAttribute />
+	</xsd:complexType>
+	<!-- End Analog Channel  Preset Collection Type -->
+	<!-- Calculation Channel Preset Collection Type -->
+	<xsd:complexType name="CalcPresetCollectionType">
+		<xsd:sequence>
+			<xsd:element name="calcpreset" type="CalcPresetType" minOccurs="0" maxOccurs="unbounded" />
+		</xsd:sequence>
+		<xsd:anyAttribute />
+	</xsd:complexType>
+	<!-- End Analog Channel  Preset Collection Type -->
+	<!-- (BASE) Channel Preset Type -->
+	<xsd:complexType name="ChannelPresetType">
+		<xsd:sequence>
+			<xsd:element name="presetlabel" type="xsd:string" />
+			<xsd:element name="channellabel" type="xsd:string" />
+			<xsd:element name="unitslabel" type="xsd:string" />
+			<xsd:element name="scaling" type="ScalingType" />
+		</xsd:sequence>
+		<xsd:attribute name="uid" type="xsd:ID" />
+	</xsd:complexType>
+	<!-- End (BASE) Channel Preset Type -->
+	<!-- Analog Preset Type (extends Channel Preset Type) -->
+	<xsd:complexType name="AnalogPresetType">
+		<xsd:complexContent>
+			<xsd:extension base="ChannelPresetType">
+				<xsd:sequence>
+					<!-- unbounded for future hardware configuration -->
+					<xsd:element name="hardwareconfig" type="HardwareConfigType" minOccurs="0" maxOccurs="unbounded" />
+					<!-- HOW DO YOU MAKE THIS EXTENSIBLE????? -->
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<!-- End Analog Preset Type (extends Channel Preset Type) -->
+	<!-- Analog Preset Type (extends Channel Preset Type) -->
+	<xsd:complexType name="CalcPresetType">
+		<xsd:complexContent>
+			<xsd:extension base="ChannelPresetType">
+				<xsd:sequence>
+					<xsd:any minOccurs="0" maxOccurs="unbounded" />
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<!-- End Analog Preset Type (extends Channel Preset Type) -->
+	<!-- Scaling Type -->
+	<xsd:complexType name="ScalingType">
+		<xsd:sequence>
+			<!-- sequence of 2 or more value for non linear scaling or multisegment linear scaling -->
+			<xsd:element name="value" type="ScalingValueType" minOccurs="2" maxOccurs="unbounded" />
+		</xsd:sequence>
+		<xsd:anyAttribute />
+	</xsd:complexType>
+	<!-- End Scaling Type -->
+	<!-- Hardware Configuration Type -->
+	<xsd:complexType name="HardwareConfigType">
+		<xsd:sequence>
+			<xsd:element name="settings" type="HardwareSettingsType" />
+			<xsd:element name="dspfiltercollection" type="DSPFilterCollectionType" />
+			<xsd:any minOccurs="0" maxOccurs="unbounded" />
+		</xsd:sequence>
+		<xsd:attribute name="type" type="xsd:integer" use="required" />
+		<xsd:anyAttribute />
+	</xsd:complexType>
+	<!-- End Hardware Configuration Type -->
+	<!-- Hardware Settings Type -->
+	<xsd:complexType name="HardwareSettingsType">
+		<xsd:sequence>
+			<xsd:element name="gain" type="xsd:double" />
+			<xsd:element name="offset" type="xsd:double" />
+			<xsd:element name="inputcoupling" type="InputCouplingType" />
+			<xsd:element name="highpassfilter" type="xsd:double" />
+			<xsd:element name="lowpassfilter" type="xsd:double" minOccurs="0" maxOccurs="1" />
+		</xsd:sequence>
+	</xsd:complexType>
+	<!-- End Hardware Settings Type -->
+	<!-- DSP Filter Collection Type -->
+	<xsd:complexType name="DSPFilterCollectionType">
+		<xsd:sequence>
+			<xsd:element name="dspfilter" type="DSPFilterType" minOccurs="1" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+	<!-- End DSP Filter Collection Type -->
+	<!-- DSP Filter Type -->
+	<xsd:complexType name="DSPFilterType">
+		<xsd:sequence>
+			<xsd:element name="frequency" type="xsd:double" />
+			<xsd:element name="q" type="xsd:double" />
+		</xsd:sequence>
+		<xsd:attribute name="type" type="FilterType" />
+		<xsd:anyAttribute />
+	</xsd:complexType>
+	<!-- End DSP Filter Type -->
+	<!-- Scaling Value Type -->
+	<xsd:complexType name="ScalingValueType">
+		<xsd:attribute name="unscaled" use="required" />
+		<xsd:attribute name="scaled" use="required" />
+		<xsd:anyAttribute />
+	</xsd:complexType>
+	<!-- End Scaling Value Type -->
+	<!-- Filter Type -->
+	<xsd:simpleType name="FilterType">
+		<xsd:restriction base="xsd:string">
+			<!-- Should we restrict it here because there might be filters we haven't defined yet -->
+			<xsd:pattern value="None|LowPass|HighPass|BandPass|BandStop|BandStopLineFrequency" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	<!-- End Filter Type -->
+	<!-- Input Coupling Type -->
+	<xsd:simpleType name="InputCouplingType">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="AC|DC" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	<!-- End Input Coupling Type -->
+	<!-- Major Minor Version Type -->
+	<xsd:simpleType name="MajorMinorVersionType">
+		<xsd:restriction base="xsd:string">
+			<!-- Restrict patterm for major.minor version numbering -->
+			<xsd:pattern value="[0-9]+\.[0-9]+" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	<!-- End Major Minor Versin Type -->
+	<!-- ELEMENTS FOR THE CHANNEL PRESET XML FORMAT -->
+	<!-- Root Element Declaration -->
+	<xsd:element name="channelpresetcollection" type="ChannelPresetCollectionType" />
+	<!-- End Root Element Declaration -->
+</xsd:schema>

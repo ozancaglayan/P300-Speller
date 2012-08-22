@@ -1,0 +1,5278 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="channelpresets-stylesheet.xsl"?>
+<channelpresetcollection xmlns="http://www.biopac.com/ChannelPresets" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.biopac.com/ChannelPresets channelpresets-schema.xsd" version="1.0" creator="PresetXMLEditor">
+	<analogpresetcollection>
+		<analogpreset uid="a1">
+			<presetlabel>Accelerometer (5 g's max.)</presetlabel>
+			<channellabel>Accelerometer</channellabel>
+			<unitslabel>g's</unitslabel>
+			<scaling>
+				<value unscaled="0.011000000000000" scaled="1.000000000000000" />
+				<value unscaled="0.010000000000000" scaled="0.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a2">
+			<presetlabel>Accelerometer (50 g's max.)</presetlabel>
+			<channellabel>Accelerometer</channellabel>
+			<unitslabel>g's</unitslabel>
+			<scaling>
+				<value unscaled="0.007500000000000" scaled="10.000000000000000" />
+				<value unscaled="0.006500000000000" scaled="0.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a3">
+			<presetlabel>Airflow (SS11LA)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>liters/sec</unitslabel>
+			<scaling>
+				<value unscaled="-0.003000000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.003000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>5000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a4">
+			<presetlabel>Airflow (SS52L)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>liters/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.192500000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a5">
+			<presetlabel>Blood Pressure Cuff</presetlabel>
+			<channellabel>Blood Pressure Cuff</channellabel>
+			<unitslabel>mmHg</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.002500000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a6">
+			<presetlabel>BNC (SS9L, -10 to +10 Volts max.)</presetlabel>
+			<channellabel>BNC</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a7">
+			<presetlabel>BNC (SS9L, -50 to +50 Volts max.)</presetlabel>
+			<channellabel>BNC</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a8">
+			<presetlabel>BNC (SS70L, -10 to +10 Volts max.)</presetlabel>
+			<channellabel>BNC</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="-1.000000000000000" scaled="-10.000000000000000" />
+				<value unscaled="1.000000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>10</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a9">
+			<presetlabel>Cardiac Output - Z</presetlabel>
+			<channellabel>Cardiac Output - Z</channellabel>
+			<unitslabel>Ohms</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.050000000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a10">
+			<presetlabel>Cardiac Output - dZ/dt</presetlabel>
+			<channellabel>Cardiac Output - dZ/dt</channellabel>
+			<unitslabel>Ohms/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.005000000000000" scaled="2.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a11">
+			<presetlabel>Clench Force (kg)</presetlabel>
+			<channellabel>Clench Force</channellabel>
+			<unitslabel>kg</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.003500000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a12">
+			<presetlabel>Clench Force (lbs)</presetlabel>
+			<channellabel>Clench Force</channellabel>
+			<unitslabel>lbs</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.003500000000000" scaled="220.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a13">
+			<presetlabel>Clench Force (N)</presetlabel>
+			<channellabel>Clench Force</channellabel>
+			<unitslabel>N</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.003500000000000" scaled="981.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a14">
+			<presetlabel>CO2 Expired (GASSYS2)</presetlabel>
+			<channellabel>CO2 Expired</channellabel>
+			<unitslabel>% CO2</unitslabel>
+			<scaling>
+				<value unscaled="0.001027000000000" scaled="0.040000000000000" />
+				<value unscaled="0.011020000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a15">
+			<presetlabel>O2 Expired (GASSYS2)</presetlabel>
+			<channellabel>O2 Expired</channellabel>
+			<unitslabel>% O2</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.020640000000000" scaled="20.930000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a16">
+			<presetlabel>Electrocardiogram (ECG), .5 - 35 Hz</presetlabel>
+			<channellabel>ECG (.5 - 35 Hz)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a17">
+			<presetlabel>Electrocardiogram (ECG), .05 - 35 Hz</presetlabel>
+			<channellabel>ECG (.05 - 35 Hz)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a18">
+			<presetlabel>Electrocardiogram (ECG), .05 - 100 Hz, AHA</presetlabel>
+			<channellabel>ECG (.05 - 100 Hz, AHA) </channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a19">
+			<presetlabel>Electrocardiogram (ECG), .05 - 150 Hz</presetlabel>
+			<channellabel>ECG (.05 - 150 Hz)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>150.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a20">
+			<presetlabel>Electrodermal Activity (EDA), 0 - 35 Hz</presetlabel>
+			<channellabel>EDA (0 - 35 Hz)</channellabel>
+			<unitslabel>micro Mho</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a21">
+			<presetlabel>Electrodermal Activity (EDA) Change</presetlabel>
+			<channellabel>EDA Change</channellabel>
+			<unitslabel>delta micro Mho</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>5000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a22">
+			<presetlabel>Electroencephalogram (EEG), .5 - 35 Hz</presetlabel>
+			<channellabel>EEG (.5 - 35 Hz)</channellabel>
+			<unitslabel>micro V</unitslabel>
+			<scaling>
+				<value unscaled="-0.000010000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.000010000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>20000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a23">
+			<presetlabel>Electroencephalogram (EEG), .5 - 100 Hz w/notch</presetlabel>
+			<channellabel>EEG (.5 - 100 Hz, w/notch) </channellabel>
+			<unitslabel>micro V</unitslabel>
+			<scaling>
+				<value unscaled="-0.000010000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.000010000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>20000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a24">
+			<presetlabel>Electrogastrogram (EGG)</presetlabel>
+			<channellabel>EGG</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>5000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a25">
+			<presetlabel>Electromyogram (EMG), 5 - 250 Hz w/notch</presetlabel>
+			<channellabel>EMG (5 - 250 Hz w/notch)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>250.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a26">
+			<presetlabel>Electromyogram (EMG), 5 - 500 Hz</presetlabel>
+			<channellabel>EMG (5 - 500 Hz)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>500.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>500.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a27">
+			<presetlabel>Electromyogram (EMG), 5 - 1000 Hz</presetlabel>
+			<channellabel>EMG (5 - 1000 Hz)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>1000.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>1000.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a28">
+			<presetlabel>Electromyogram (EMG), 30 - 250 Hz w/notch</presetlabel>
+			<channellabel>EMG (30 - 250 Hz w/notch)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="HighPass">
+						<frequency>30.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>250.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a29">
+			<presetlabel>Electromyogram (EMG), 30 - 500 Hz</presetlabel>
+			<channellabel>EMG (30 - 500 Hz)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="HighPass">
+						<frequency>30.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>500.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a30">
+			<presetlabel>Electromyogram (EMG), 30 - 1000 Hz</presetlabel>
+			<channellabel>EMG (30 - 1000 Hz)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="HighPass">
+						<frequency>30.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>1000.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a31">
+			<presetlabel>Electrooculogram (EOG), .05 - 35 Hz</presetlabel>
+			<channellabel>EOG (.05 - 35 Hz) </channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a32">
+			<presetlabel>Finger Displacement (cm)</presetlabel>
+			<channellabel>Finger Displacement</channellabel>
+			<unitslabel>cm</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.000300000000000" scaled="8.890000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a33">
+			<presetlabel>Finger Displacement (inches)</presetlabel>
+			<channellabel>Finger Displacement</channellabel>
+			<unitslabel>inches</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.000300000000000" scaled="3.500000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a34">
+			<presetlabel>Goniometer</presetlabel>
+			<channellabel>Goniometer</channellabel>
+			<unitslabel>degrees</unitslabel>
+			<scaling>
+				<value unscaled="-0.002250000000000" scaled="-90.000000000000000" />
+				<value unscaled="0.002250000000000" scaled="90.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a35">
+			<presetlabel>Goniometer (Intelitool - Flexicomp)</presetlabel>
+			<channellabel>Goniometer</channellabel>
+			<unitslabel>degrees</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="90.000000000000000" />
+				<value unscaled="0.005000000000000" scaled="150.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a36">
+			<presetlabel>Heel Toe Strike</presetlabel>
+			<channellabel>Heel Toe Strike</channellabel>
+			<unitslabel>Impulse</unitslabel>
+			<scaling>
+				<value unscaled="-0.005000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.005000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a37">
+			<presetlabel>Microphone (SS17L, .5 - 200 Hz)</presetlabel>
+			<channellabel>Microphone</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.010000000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.010000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>200.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a38">
+			<presetlabel>Microphone for Speech (SS62L)</presetlabel>
+			<channellabel>Microphone</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.010000000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.010000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="HighPass">
+						<frequency>30.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>3500.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a39">
+			<presetlabel>MP100/150 Interface (BSLCBL14)</presetlabel>
+			<channellabel>MP100/150 Interface</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="-1.000000000000000" scaled="-10.000000000000000" />
+				<value unscaled="1.000000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>10</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a40">
+			<presetlabel>Psychological Response</presetlabel>
+			<channellabel>Phychological Response</channellabel>
+			<unitslabel>Response</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.050000000000000" scaled="9.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a41">
+			<presetlabel>Pulse Plethysmograph (PPG)</presetlabel>
+			<channellabel>PPG (Pulse)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>5000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a42">
+			<presetlabel>Reflex Hammer Strike</presetlabel>
+			<channellabel>Reflex Hammer Strike</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a43">
+			<presetlabel>Reflex Hammer (Intelitool - Flexicomp)</presetlabel>
+			<channellabel>Reflex Hammer</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.010000000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.010000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a44">
+			<presetlabel>Respiration (SS5LB)</presetlabel>
+			<channellabel>Respiration</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.010000000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.010000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a45">
+			<presetlabel>Stethoscope (Heart Sounds)</presetlabel>
+			<channellabel>Stethoscope</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="HighPass">
+						<frequency>40.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>60.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a46">
+			<presetlabel>Stethoscope (Korotkoff Sounds)</presetlabel>
+			<channellabel>Stethoscope</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="HighPass">
+						<frequency>50.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a47">
+			<presetlabel>Stimulator-BSLSTM (0-10 Volts)</presetlabel>
+			<channellabel>Stimulator</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.050000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a48">
+			<presetlabel>Stimulator-BSLSTM (0-100 Volts)</presetlabel>
+			<channellabel>Stimulator</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.050000000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a49">
+			<presetlabel>Stroboscope Flash (TSD122)</presetlabel>
+			<channellabel>Stroboscope Flash</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="-0.050000000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.050000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a50">
+			<presetlabel>SuperLab Sync. (SS44L)</presetlabel>
+			<channellabel>SuperLab Sync.</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.025000000000000" scaled="5.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a51">
+			<presetlabel>Switch</presetlabel>
+			<channellabel>Switch</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>30.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a52">
+			<presetlabel>Temperature (deg. C)</presetlabel>
+			<channellabel>Temperature</channellabel>
+			<unitslabel>deg C</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="32.220000000000000" />
+				<value unscaled="0.001000000000000" scaled="35.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a53">
+			<presetlabel>Temperature (deg. F)</presetlabel>
+			<channellabel>Temperature</channellabel>
+			<unitslabel>deg F</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="90.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="95.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a54">
+			<presetlabel>Temperature Change (deg. C)</presetlabel>
+			<channellabel>Temperature Change</channellabel>
+			<unitslabel>delta deg C</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="2.780000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a55">
+			<presetlabel>Temperature Change (deg. F)</presetlabel>
+			<channellabel>Temperature Change</channellabel>
+			<unitslabel>delta deg F</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="5.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a56">
+			<presetlabel>Torsiometer</presetlabel>
+			<channellabel>Torsiometer</channellabel>
+			<unitslabel>degrees</unitslabel>
+			<scaling>
+				<value unscaled="-0.002250000000000" scaled="-90.000000000000000" />
+				<value unscaled="0.002250000000000" scaled="90.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a57">
+			<presetlabel>Airflow (small mouse)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>ml/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001285000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a58">
+			<presetlabel>Airflow (mouse)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>ml/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.000770000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a59">
+			<presetlabel>Airflow (rat/guinea pig)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>ml/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.000289000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a60">
+			<presetlabel>Airflow (cat/rabbit)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>ml/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001050000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a61">
+			<presetlabel>Airflow (small dog)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>ml/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.000462000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a62">
+			<presetlabel>Airflow (medium dog)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>ml/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001155000000000" scaled="1000.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a63">
+			<presetlabel>Airflow (large dog)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>ml/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.000481500000000" scaled="1000.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a64">
+			<presetlabel>Blood Pressure (Arterial)</presetlabel>
+			<channellabel>Blood Pressure</channellabel>
+			<unitslabel>mmHg</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.002500000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a65">
+			<presetlabel>Circuit Probe (Breadboard)</presetlabel>
+			<channellabel>Circuit Probe</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="-0.050000000000000" scaled="-5.000000000000000" />
+				<value unscaled="0.050000000000000" scaled="5.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a66">
+			<presetlabel>Current Monitor (BSLCBL10)</presetlabel>
+			<channellabel>Current Monitor</channellabel>
+			<unitslabel>micro Amp</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.050000000000000" scaled="50.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a67">
+			<presetlabel>Displacement (cm)</presetlabel>
+			<channellabel>Displacement</channellabel>
+			<unitslabel>cm</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a68">
+			<presetlabel>Displacement (inches)</presetlabel>
+			<channellabel>Displacement</channellabel>
+			<unitslabel>inches</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="0.394000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a69">
+			<presetlabel>Displacement (AD Inst. DT-475)</presetlabel>
+			<channellabel>Displacement</channellabel>
+			<unitslabel>inches</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.009000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a70">
+			<presetlabel>Dissolved O2 (BSL-TCI16)</presetlabel>
+			<channellabel>Dissolved O2</channellabel>
+			<unitslabel>% O2</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.025000000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a71">
+			<presetlabel>Earthworm Action Potential</presetlabel>
+			<channellabel>Earthworm Action Potential</channellabel>
+			<unitslabel>micro V</unitslabel>
+			<scaling>
+				<value unscaled="-0.000010000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.000010000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>10000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="HighPass">
+						<frequency>50.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a72">
+			<presetlabel>Force (0 - 50 grams)</presetlabel>
+			<channellabel>Force</channellabel>
+			<unitslabel>grams</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.005000000000000" scaled="50.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a73">
+			<presetlabel>Force (0 - 100 grams)</presetlabel>
+			<channellabel>Force</channellabel>
+			<unitslabel>grams</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.005000000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a74">
+			<presetlabel>Force (0 - 200 grams)</presetlabel>
+			<channellabel>Force</channellabel>
+			<unitslabel>grams</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.005000000000000" scaled="200.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a75">
+			<presetlabel>Force (0 - 500 grams)</presetlabel>
+			<channellabel>Force</channellabel>
+			<unitslabel>grams</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.005000000000000" scaled="500.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a76">
+			<presetlabel>Force (0 - 1000 grams)</presetlabel>
+			<channellabel>Force</channellabel>
+			<unitslabel>grams</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.005000000000000" scaled="1000.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a77">
+			<presetlabel>Force (iWorx FT-100)</presetlabel>
+			<channellabel>Force</channellabel>
+			<unitslabel>grams</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.002500000000000" scaled="250.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a78">
+			<presetlabel>Nerve Response (BSLCBL3,4,9)</presetlabel>
+			<channellabel>Nerve Response</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a79">
+			<presetlabel>Nerve Response (BSLCBL8)</presetlabel>
+			<channellabel>Nerve Response</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a80">
+			<presetlabel>pH (BSL-TCI21)</presetlabel>
+			<channellabel>pH</channellabel>
+			<unitslabel>pH</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="7.000000000000000" />
+				<value unscaled="0.035000000000000" scaled="14.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a81">
+			<presetlabel>Pneumogram</presetlabel>
+			<channellabel>Pneumogram</channellabel>
+			<unitslabel>cm H2O</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.006550000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a82">
+			<presetlabel>Pressure (+-2.5 cm H2O)</presetlabel>
+			<channellabel>Pressure</channellabel>
+			<unitslabel>cm H20</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001650000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a83">
+			<presetlabel>Pressure (+-12.5 cm H2O)</presetlabel>
+			<channellabel>Pressure</channellabel>
+			<unitslabel>cm H20</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.000650000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a84">
+			<presetlabel>Pressure (+-25 cm H2O)</presetlabel>
+			<channellabel>Pressure</channellabel>
+			<unitslabel>cm H20</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.000325000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a85">
+			<presetlabel>Tobacco Hornworm (BSLCBL8)</presetlabel>
+			<channellabel>Tobacco Hornworm</channellabel>
+			<unitslabel>micro V</unitslabel>
+			<scaling>
+				<value unscaled="-0.000010000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.000010000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="35">
+				<settings>
+					<gain>10000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="HighPass">
+						<frequency>10.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>250.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a86">
+			<presetlabel>Accelerometer (5 g's max.)</presetlabel>
+			<channellabel>Accelerometer</channellabel>
+			<unitslabel>g's</unitslabel>
+			<scaling>
+				<value unscaled="0.011000000000000" scaled="1.000000000000000" />
+				<value unscaled="0.010000000000000" scaled="0.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a87">
+			<presetlabel>Accelerometer (50 g's max.)</presetlabel>
+			<channellabel>Accelerometer</channellabel>
+			<unitslabel>g's</unitslabel>
+			<scaling>
+				<value unscaled="0.007500000000000" scaled="10.000000000000000" />
+				<value unscaled="0.006500000000000" scaled="0.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a88">
+			<presetlabel>Airflow (SS11LA)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>liters/sec</unitslabel>
+			<scaling>
+				<value unscaled="-0.003000000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.003000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>5000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a89">
+			<presetlabel>Airflow (SS52L)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>liters/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.192500000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a90">
+			<presetlabel>Blood Pressure Cuff</presetlabel>
+			<channellabel>Blood Pressure Cuff</channellabel>
+			<unitslabel>mmHg</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.002500000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a91">
+			<presetlabel>BNC (SS9L, -10 to +10 Volts max.)</presetlabel>
+			<channellabel>BNC</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a92">
+			<presetlabel>BNC (SS9L, -50 to +50 Volts max.)</presetlabel>
+			<channellabel>BNC</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a93">
+			<presetlabel>BNC (SS70L, -10 to +10 Volts max.)</presetlabel>
+			<channellabel>BNC</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="-1.000000000000000" scaled="-10.000000000000000" />
+				<value unscaled="1.000000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>10</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a94">
+			<presetlabel>Cardiac Output - Z</presetlabel>
+			<channellabel>Cardiac Output - Z</channellabel>
+			<unitslabel>Ohms</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.050000000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a95">
+			<presetlabel>Cardiac Output - dZ/dt</presetlabel>
+			<channellabel>Cardiac Output - dZ/dt</channellabel>
+			<unitslabel>Ohms/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.005000000000000" scaled="2.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a96">
+			<presetlabel>Clench Force (kg)</presetlabel>
+			<channellabel>Clench Force</channellabel>
+			<unitslabel>kg</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.003500000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a97">
+			<presetlabel>Clench Force (lbs)</presetlabel>
+			<channellabel>Clench Force</channellabel>
+			<unitslabel>lbs</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.003500000000000" scaled="220.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a98">
+			<presetlabel>Clench Force (N)</presetlabel>
+			<channellabel>Clench Force</channellabel>
+			<unitslabel>N</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.003500000000000" scaled="981.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a99">
+			<presetlabel>CO2 Expired (GASSYS2)</presetlabel>
+			<channellabel>CO2 Expired</channellabel>
+			<unitslabel>% CO2</unitslabel>
+			<scaling>
+				<value unscaled="0.001027000000000" scaled="0.040000000000000" />
+				<value unscaled="0.011020000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a100">
+			<presetlabel>O2 Expired (GASSYS2)</presetlabel>
+			<channellabel>O2 Expired</channellabel>
+			<unitslabel>% O2</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.020640000000000" scaled="20.930000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a101">
+			<presetlabel>Electrocardiogram (ECG), .5 - 35 Hz</presetlabel>
+			<channellabel>ECG (.5 - 35 Hz)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a102">
+			<presetlabel>Electrocardiogram (ECG), .05 - 35 Hz</presetlabel>
+			<channellabel>ECG (.05 - 35 Hz)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a103">
+			<presetlabel>Electrocardiogram (ECG), .05 - 100 Hz, AHA</presetlabel>
+			<channellabel>ECG (.05 - 100 Hz, AHA) </channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a104">
+			<presetlabel>Electrocardiogram (ECG), .05 - 150 Hz</presetlabel>
+			<channellabel>ECG (.05 - 150 Hz)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>150.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a105">
+			<presetlabel>Electrodermal Activity (EDA), 0 - 35 Hz</presetlabel>
+			<channellabel>EDA (0 - 35 Hz)</channellabel>
+			<unitslabel>micro Mho</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a106">
+			<presetlabel>Electrodermal Activity (EDA) Change</presetlabel>
+			<channellabel>EDA Change</channellabel>
+			<unitslabel>delta micro Mho</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>5000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a107">
+			<presetlabel>Electroencephalogram (EEG), .5 - 35 Hz</presetlabel>
+			<channellabel>EEG (.5 - 35 Hz)</channellabel>
+			<unitslabel>micro V</unitslabel>
+			<scaling>
+				<value unscaled="-0.000010000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.000010000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>20000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a108">
+			<presetlabel>Electroencephalogram (EEG), .5 - 100 Hz w/notch</presetlabel>
+			<channellabel>EEG (.5 - 100 Hz, w/notch) </channellabel>
+			<unitslabel>micro V</unitslabel>
+			<scaling>
+				<value unscaled="-0.000010000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.000010000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>20000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a109">
+			<presetlabel>Electrogastrogram (EGG)</presetlabel>
+			<channellabel>EGG</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>5000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a110">
+			<presetlabel>Electromyogram (EMG), 5 - 250 Hz w/notch</presetlabel>
+			<channellabel>EMG (5 - 250 Hz w/notch)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>250.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a111">
+			<presetlabel>Electromyogram (EMG), 5 - 500 Hz</presetlabel>
+			<channellabel>EMG (5 - 500 Hz)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>500.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>500.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a112">
+			<presetlabel>Electromyogram (EMG), 5 - 1000 Hz</presetlabel>
+			<channellabel>EMG (5 - 1000 Hz)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>1000.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>1000.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a113">
+			<presetlabel>Electromyogram (EMG), 30 - 250 Hz w/notch</presetlabel>
+			<channellabel>EMG (30 - 250 Hz w/notch)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="HighPass">
+						<frequency>30.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>250.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+    <analogpreset uid="a114">
+      <presetlabel>Electromyogram (EMG), 30 - 500 Hz</presetlabel>
+			<channellabel>EMG (30 - 500 Hz)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="HighPass">
+						<frequency>30.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>500.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a115">
+			<presetlabel>Electromyogram (EMG), 30 - 1000 Hz</presetlabel>
+			<channellabel>EMG (30 - 1000 Hz)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="HighPass">
+						<frequency>30.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>1000.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a116">
+			<presetlabel>Electrooculogram (EOG), .05 - 35 Hz</presetlabel>
+			<channellabel>EOG (.05 - 35 Hz) </channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a117">
+			<presetlabel>Finger Displacement (cm)</presetlabel>
+			<channellabel>Finger Displacement</channellabel>
+			<unitslabel>cm</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.000300000000000" scaled="8.890000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a118">
+			<presetlabel>Finger Displacement (inches)</presetlabel>
+			<channellabel>Finger Displacement</channellabel>
+			<unitslabel>inches</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.000300000000000" scaled="3.500000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a119">
+			<presetlabel>Goniometer</presetlabel>
+			<channellabel>Goniometer</channellabel>
+			<unitslabel>degrees</unitslabel>
+			<scaling>
+				<value unscaled="-0.002250000000000" scaled="-90.000000000000000" />
+				<value unscaled="0.002250000000000" scaled="90.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a120">
+			<presetlabel>Goniometer (Intelitool - Flexicomp)</presetlabel>
+			<channellabel>Goniometer</channellabel>
+			<unitslabel>degrees</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="90.000000000000000" />
+				<value unscaled="0.005000000000000" scaled="150.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a121">
+			<presetlabel>Heel Toe Strike</presetlabel>
+			<channellabel>Heel Toe Strike</channellabel>
+			<unitslabel>Impulse</unitslabel>
+			<scaling>
+				<value unscaled="-0.005000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.005000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a122">
+			<presetlabel>Microphone (SS17L, .5 - 200 Hz)</presetlabel>
+			<channellabel>Microphone</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.010000000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.010000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>200.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a123">
+			<presetlabel>Microphone for Speech (SS62L)</presetlabel>
+			<channellabel>Microphone</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.010000000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.010000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="HighPass">
+						<frequency>30.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>3500.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a124">
+			<presetlabel>MP100/150 Interface (BSLCBL14)</presetlabel>
+			<channellabel>MP100/150 Interface</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="-1.000000000000000" scaled="-10.000000000000000" />
+				<value unscaled="1.000000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>10</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a125">
+			<presetlabel>Psychological Response</presetlabel>
+			<channellabel>Phychological Response</channellabel>
+			<unitslabel>Response</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.050000000000000" scaled="9.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a126">
+			<presetlabel>Pulse Plethysmograph (PPG)</presetlabel>
+			<channellabel>PPG (Pulse)</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>5000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a127">
+			<presetlabel>Reflex Hammer Strike</presetlabel>
+			<channellabel>Reflex Hammer Strike</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a128">
+			<presetlabel>Reflex Hammer (Intelitool - Flexicomp)</presetlabel>
+			<channellabel>Reflex Hammer</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.010000000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.010000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a129">
+			<presetlabel>Respiration (SS5LB)</presetlabel>
+			<channellabel>Respiration</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.010000000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.010000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a130">
+			<presetlabel>Stethoscope (Heart Sounds)</presetlabel>
+			<channellabel>Stethoscope</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="HighPass">
+						<frequency>40.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>60.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a131">
+			<presetlabel>Stethoscope (Korotkoff Sounds)</presetlabel>
+			<channellabel>Stethoscope</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="HighPass">
+						<frequency>50.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a132">
+			<presetlabel>Stimulator-BSLSTM (0-10 Volts)</presetlabel>
+			<channellabel>Stimulator</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.050000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a133">
+			<presetlabel>Stimulator-BSLSTM (0-100 Volts)</presetlabel>
+			<channellabel>Stimulator</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.050000000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a134">
+			<presetlabel>Stroboscope Flash (TSD122)</presetlabel>
+			<channellabel>Stroboscope Flash</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="-0.050000000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.050000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>5.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a135">
+			<presetlabel>SuperLab Sync. (SS44L)</presetlabel>
+			<channellabel>SuperLab Sync.</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.025000000000000" scaled="5.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a136">
+			<presetlabel>Switch</presetlabel>
+			<channellabel>Switch</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>30.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a137">
+			<presetlabel>Temperature (deg. C)</presetlabel>
+			<channellabel>Temperature</channellabel>
+			<unitslabel>deg C</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="32.220000000000000" />
+				<value unscaled="0.001000000000000" scaled="35.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a138">
+			<presetlabel>Temperature (deg. F)</presetlabel>
+			<channellabel>Temperature</channellabel>
+			<unitslabel>deg F</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="90.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="95.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a139">
+			<presetlabel>Temperature Change (deg. C)</presetlabel>
+			<channellabel>Temperature Change</channellabel>
+			<unitslabel>delta deg C</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="2.780000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a140">
+			<presetlabel>Temperature Change (deg. F)</presetlabel>
+			<channellabel>Temperature Change</channellabel>
+			<unitslabel>delta deg F</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="5.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a141">
+			<presetlabel>Torsiometer</presetlabel>
+			<channellabel>Torsiometer</channellabel>
+			<unitslabel>degrees</unitslabel>
+			<scaling>
+				<value unscaled="-0.002250000000000" scaled="-90.000000000000000" />
+				<value unscaled="0.002250000000000" scaled="90.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>2000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a142">
+			<presetlabel>Airflow (small mouse)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>ml/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001285000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a143">
+			<presetlabel>Airflow (mouse)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>ml/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.000770000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a144">
+			<presetlabel>Airflow (rat/guinea pig)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>ml/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.000289000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a145">
+			<presetlabel>Airflow (cat/rabbit)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>ml/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001050000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a146">
+			<presetlabel>Airflow (small dog)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>ml/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.000462000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a147">
+			<presetlabel>Airflow (medium dog)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>ml/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001155000000000" scaled="1000.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a148">
+			<presetlabel>Airflow (large dog)</presetlabel>
+			<channellabel>Airflow</channellabel>
+			<unitslabel>ml/sec</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.000481500000000" scaled="1000.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a149">
+			<presetlabel>Blood Pressure (Arterial)</presetlabel>
+			<channellabel>Blood Pressure</channellabel>
+			<unitslabel>mmHg</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.002500000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a150">
+			<presetlabel>Circuit Probe (Breadboard)</presetlabel>
+			<channellabel>Circuit Probe</channellabel>
+			<unitslabel>Volts</unitslabel>
+			<scaling>
+				<value unscaled="-0.050000000000000" scaled="-5.000000000000000" />
+				<value unscaled="0.050000000000000" scaled="5.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a151">
+			<presetlabel>Current Monitor (BSLCBL10)</presetlabel>
+			<channellabel>Current Monitor</channellabel>
+			<unitslabel>micro Amp</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.050000000000000" scaled="50.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a152">
+			<presetlabel>Displacement (cm)</presetlabel>
+			<channellabel>Displacement</channellabel>
+			<unitslabel>cm</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a153">
+			<presetlabel>Displacement (inches)</presetlabel>
+			<channellabel>Displacement</channellabel>
+			<unitslabel>inches</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="0.394000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a154">
+			<presetlabel>Displacement (AD Inst. DT-475)</presetlabel>
+			<channellabel>Displacement</channellabel>
+			<unitslabel>inches</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.009000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a155">
+			<presetlabel>Dissolved O2 (BSL-TCI16)</presetlabel>
+			<channellabel>Dissolved O2</channellabel>
+			<unitslabel>% O2</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.025000000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a156">
+			<presetlabel>Earthworm Action Potential</presetlabel>
+			<channellabel>Earthworm Action Potential</channellabel>
+			<unitslabel>micro V</unitslabel>
+			<scaling>
+				<value unscaled="-0.000010000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.000010000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>10000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="HighPass">
+						<frequency>50.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a157">
+			<presetlabel>Force (0 - 50 grams)</presetlabel>
+			<channellabel>Force</channellabel>
+			<unitslabel>grams</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.005000000000000" scaled="50.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a158">
+			<presetlabel>Force (0 - 100 grams)</presetlabel>
+			<channellabel>Force</channellabel>
+			<unitslabel>grams</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.005000000000000" scaled="100.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a159">
+			<presetlabel>Force (0 - 200 grams)</presetlabel>
+			<channellabel>Force</channellabel>
+			<unitslabel>grams</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.005000000000000" scaled="200.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a160">
+			<presetlabel>Force (0 - 500 grams)</presetlabel>
+			<channellabel>Force</channellabel>
+			<unitslabel>grams</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.005000000000000" scaled="500.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a161">
+			<presetlabel>Force (0 - 1000 grams)</presetlabel>
+			<channellabel>Force</channellabel>
+			<unitslabel>grams</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.005000000000000" scaled="1000.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a162">
+			<presetlabel>Force (iWorx FT-100)</presetlabel>
+			<channellabel>Force</channellabel>
+			<unitslabel>grams</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.002500000000000" scaled="250.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a163">
+			<presetlabel>Nerve Response (BSLCBL3,4,9)</presetlabel>
+			<channellabel>Nerve Response</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a164">
+			<presetlabel>Nerve Response (BSLCBL8)</presetlabel>
+			<channellabel>Nerve Response</channellabel>
+			<unitslabel>mV</unitslabel>
+			<scaling>
+				<value unscaled="-0.001000000000000" scaled="-1.000000000000000" />
+				<value unscaled="0.001000000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="None">
+						<frequency>100.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a165">
+			<presetlabel>pH (BSL-TCI21)</presetlabel>
+			<channellabel>pH</channellabel>
+			<unitslabel>pH</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="7.000000000000000" />
+				<value unscaled="0.035000000000000" scaled="14.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>200</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a166">
+			<presetlabel>Pneumogram</presetlabel>
+			<channellabel>Pneumogram</channellabel>
+			<unitslabel>cm H2O</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.006550000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a167">
+			<presetlabel>Pressure (+-2.5 cm H2O)</presetlabel>
+			<channellabel>Pressure</channellabel>
+			<unitslabel>cm H20</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.001650000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>1000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a168">
+			<presetlabel>Pressure (+-12.5 cm H2O)</presetlabel>
+			<channellabel>Pressure</channellabel>
+			<unitslabel>cm H20</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.000650000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a169">
+			<presetlabel>Pressure (+-25 cm H2O)</presetlabel>
+			<channellabel>Pressure</channellabel>
+			<unitslabel>cm H20</unitslabel>
+			<scaling>
+				<value unscaled="0.000000000000000" scaled="0.000000000000000" />
+				<value unscaled="0.000325000000000" scaled="1.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>500</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>DC</inputcoupling>
+					<highpassfilter>0.05</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="LowPass">
+						<frequency>66.5000</frequency>
+						<q>0.5000</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>38.5000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+		<analogpreset uid="a170">
+			<presetlabel>Tobacco Hornworm (BSLCBL8)</presetlabel>
+			<channellabel>Tobacco Hornworm</channellabel>
+			<unitslabel>micro V</unitslabel>
+			<scaling>
+				<value unscaled="-0.000010000000000" scaled="-10.000000000000000" />
+				<value unscaled="0.000010000000000" scaled="10.000000000000000" />
+			</scaling>
+			<hardwareconfig type="36">
+				<settings>
+					<gain>10000</gain>
+					<offset>0.0000</offset>
+					<inputcoupling>AC</inputcoupling>
+					<highpassfilter>5</highpassfilter>
+				</settings>
+				<dspfiltercollection>
+					<dspfilter type="HighPass">
+						<frequency>10.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="LowPass">
+						<frequency>250.0000</frequency>
+						<q>0.7070</q>
+					</dspfilter>
+					<dspfilter type="BandStopLineFrequency">
+						<frequency>60.0000</frequency>
+						<q>1.0000</q>
+					</dspfilter>
+				</dspfiltercollection>
+			</hardwareconfig>
+		</analogpreset>
+	</analogpresetcollection>
+	<calcpresetcollection></calcpresetcollection>
+</channelpresetcollection>
